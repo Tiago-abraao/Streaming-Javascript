@@ -1,0 +1,42 @@
+
+  /* Estilos para telas menores que 764px */
+  
+  @media screen and (max-width: 972px) {
+    
+      
+
+      .menu-logo > h2 {
+      font-size: 25px;
+   
+      }
+      
+      .logoPlus {
+       font-size: 19;
+      }
+    
+      
+      .link-menu {
+      margin-top: 14px;
+      margin-right: 40px;
+      font-size: 10px;
+      height: 30px;
+      }
+          
+
+    
+      .btn-icon, .fa-solid.fa-user > i  {
+      width: 40px;
+      height: 40px;
+      padding-bottom: 19px;
+      padding-left: 8px;
+      border-radius: 50%;
+      font-size: 19px;
+      }
+      
+      .main-container {
+      width: 100%;
+      }
+    
+
+    }
+ 

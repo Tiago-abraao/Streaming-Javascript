@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+body {
+background-color: #000;
+width: 100%;
+height: 100vh;
+}
+
+.menu-container {
+height: 70px;
+display: flex;
+justify-content: space-between;
+margin-top: 19px;
+}
+
+.menu-logo > h2 {
+margin-top: 10px;
+color: #fff;
+margin-left: 30px;
+font-size: 30px;
+cursor: pointer;
+}
+
+.logoPlus {
+color: blue;
+}
+
+.menu-links {
+margin-top: 10px;
+display: flex;
+justify-content: space-between;
+color: #fff;
+font-weight: bolder;
+}
+
+.link-menu {
+margin-top: 10px;
+margin-right: 40px;
+font-size: 15px;
+height: 30px;
+}
+
+.link-menu:hover {
+cursor: pointer;
+border-bottom: 1px solid #fff;
+}
+
+.menu-toggle {
+margin-bottom: 10px;
+}
+
+.btn-icon {
+margin-top: 10px;
+margin-right: 50px;
+cursor: pointer;
+}
+
+.fa-solid {
+margin-top: 10px;
+margin-right: 10px;
+}
+
+
+#hiddenMenu {
+background-color: #000000bb;
+height: 230px;
+display: none;
+position: absolute;
+margin-top: 10px;
+padding-top: 10px;
+padding-right: 10px;
+padding-left: 50px;
+right: 2px;
+}
+
+#hiddenMenu.show {
+display: block;
+}
+
+ul > li {
+list-style: none;
+padding-bottom: 19px;
+}
+
+ul > li > a {
+text-decoration: none;
+color: #fff;
+}
+
+ul > li > a:hover {
+color: yellow;
+}
+
+.btn-icon, .fa-solid.fa-user > i  {
+width: 50px;
+height: 50px;
+padding-bottom: 10px;
+padding-left: 10px;
+border-radius: 50%;
+font-size: 30px;
+}
+
+.main-container {
+width: 100%;
+}
+
+.main-container > img{
+width: 100%;
+height: 500px;
+cursor: pointer;
+}
+
+
+.carousel {
+width: 100%;
+margin: 0 auto;
+position: relative;
+top: -100px;
+overflow: hidden;
+}
+
+.carousel-container{
+display: flex;
+width: 100%; 
+}
+
+.carousel-slide{
+width: 20%;
+flex: 0 0 auto;
+margin-left: 30px;
+}
+
+.carousel img {
+padding-left: 30px;
+width: 300px; 
+height: 150px;
+border-radius: 3px;
+cursor: pointer;
+transition: transform 0.3s ease-in-out;
+}
+
+.carousel img:hover {
+transform: scale(1.1);
+}
+
+.prev-button,
+.next-button {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background: #333;
+color: #fff;
+padding: 10px;
+border: none;
+cursor: pointer;
+}
+
+.prev-button {
+left: 10px;
+}
+
+.next-button {
+right: 10px;
+}
+
+.carousel-title {
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-left: 60px;
+  }
+  
+  .carousel-title2 {
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 60px;
+    }
+    
+
+.carousel2{
+width: 100%;
+margin: 0 auto;
+position: relative;
+top: -100px;
+overflow: hidden;
+}
+
+.carousel-container2{
+  margin-top: 30px;
+display: flex;
+width: 100%; 
+}
+
+.carousel-slide2{
+width: 20%;
+flex: 0 0 auto;
+margin-left: 30px;
+}
+
+.carousel2 img{
+padding-left: 30px;
+width: 300px; 
+height: 150px;
+border-radius: 3px;
+cursor: pointer;
+transition: transform 0.3s ease-in-out;
+}
+
+.carousel2 img:hover{
+transform: scale(1.1);
+}
+
+.prev-button2, .next-button2 {
+  margin-top: -280px;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background: #333;
+color: #fff;
+padding: 10px;
+border: none;
+cursor: pointer;
+}
+
+.prev-button2{
+left: 10px;
+}
+
+.next-button2 {
+right: 10px;
+}
+
+
+.carousel3 {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: -100px;
+  overflow: hidden;
+  }
+  
+   .carousel-container3{
+    margin-top: 30px;
+  display: flex;
+  width: 100%; 
+  }
+  
+.carousel-slide3{
+  width: 20%;
+  flex: 0 0 auto;
+  margin-left: 30px;
+  }
+  
+  .carousel3 img{
+  padding-left: 30px;
+  width: 300px; 
+  height: 150px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel3 img:hover{
+  transform: scale(1.1);
+  }
+  
+  .prev-button3, .next-button3 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: -100px;
+  }
+  
+  .prev-button3 {
+  left: 10px;
+  }
+  
+  .next-button3 {
+  right: 10px;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+    font-size: 15px;
+    color: #fff;
+  }
+
+  .fcontainer1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fcontainer1 > ul {
+    display: flex;
+  }
+
+  .fcontainer1 > ul > li {
+   margin-right: 30px;
+  }
+
+  .fcontainer1 > ul > li:hover, .fcontainer2 > ul > li:hover {
+    color: yellow;
+    cursor: pointer;
+   }
+
+  .fcontainer2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fcontainer2 > ul {
+    display: flex;
+  }
+
+  .fcontainer2 > ul > li{
+    margin-right: 30px;
+  }
+
+  .fcontainerlast {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
